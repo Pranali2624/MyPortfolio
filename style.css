@@ -1,0 +1,105 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Poppins:ital,wght@0,200;1,400&family=Roboto+Slab:wght@300&display=swap');
+
+
+body{
+    background-color: rgb(32, 39, 47);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(21, 25, 31);
+
+}
+
+.left{
+    font-size: 1.7rem;
+    font-style: oblique;
+    
+
+}
+.left:hover{
+    color: rgb(228, 143, 228);
+    
+
+}
+
+nav ul{
+    display: flex;
+    justify-content:center ;
+
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(228, 143, 228);
+    font-size: 1.02rem;
+}
+
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+    
+}
+
+
+.firstsection > div {
+    width: 30%;
+}
+
+.leftSection{
+ 
+    font-size: 2.5rem;
+    border-radius: 40px;
+    margin:70px 0 ;
+    width: 70%;
+    
+    align-items: center;
+   
+}
+.rightSection{
+    height: 90%;
+}
+
+.rightSection img{
+    width: 100%;
+    height: 50%;
+    border-radius: 50px;
+}
+
+.secondsection{
+  margin: auto;
+  max-width: 80vw;
+}
+
+
+.panoo{
+    color: rgb(190, 168, 7);
+}
+
+#element{
+    color: rgb(190, 168, 7); 
+}
