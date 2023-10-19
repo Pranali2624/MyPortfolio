@@ -1,50 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>persnol porfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="left">Pranali's Protfoilo</div>
-            <div class="right">
-             <ul>
-                
-                <li><a href="/">Home</a></li>
-                <li><a href="/">About</a></li>
-                <li><a href="/">Cartificates</a></li>
-                <li><a href="/">projects</a></li>
-                <li><a href="/">Contact me</a></li>
-             </ul>
-            </div>
-        </nav>
+      <nav>
+        <div class="left">Pranali's Protfoilo</div>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#cartificate">Cartificates</a></li>
+            <li><a href="/">projects</a></li>
+            <li><a href="/">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <main>
-        <section class="firstsection">
-            <div class="leftSection">
-                Hii, My name is <samp class="panoo">Pranali</samp>. 
-                <div> And I am a passionate</div>
-                
-                  <span id="element"></span>
-            </div>
-            
-            <div class="rightSection">
-                <img src="bg.jpg" alt="bg">
-            </div>
-        </section>
-       
 
-        </section>
+    <main>
+      <section class="firstsection" id="home">
+        <div class="leftSection">
+          Hii, My name is <samp class="panoo">Pranali</samp>.
+          <div>And I am a passionate</div>
+
+          <span id="element"></span>
+          <br /><br />
+          <span>
+            <button class="btn">
+             <a href="cv.pdf" download="cv.pdf">Download CV</a> 
+            </button>
+            <button class="btn">Contact Me</button>
+          </span>
+        </div>
+
+        <div class="rightSection">
+          <img src="photos/bg.jpg" alt="bg" />
+        </div>
+      </section>
+
+      <section class="secondsection" id="about">
+        <h2>About Me</h2>
+        <div class="about">
+          <div class="content">
+            <section class="imgsection">
+              <img src="photos/about.png" alt="profile" />
+            </section>
+            <section class="info">
+              <h3>
+                Hey... <br>
+                I'm a front-end developer who is passionate about 
+                building interactive web applications and experiences.
+              </h3>
+              <p>
+                Technology drives change; society follows. <br> The effort to
+                increase inclusivity and diversity in the industry through representation is crucial to me. <br> Design is more than simply the way something looks and feels. That is how it occurs.
+              </p>
+              <p>
+                I'm also interested in machine learning and artificial
+                intelligence. <br> Artificial intelligence is a tool to enhance human creativity and genius, not a replacement for human intelligence.
+              </p>
+              <p>
+                And last but not least, I enjoy travelling and discovering new places and things. <br>It silences you first, then makes you a
+                storyteller.
+              </p>
+              <!-- <div class="perinfo">
+                <div><span>Name:</span><span>Pranali Waghmare</span></div>
+                <div><span>Age:</span><span>19 years </span></div>
+                <div><span>Email:</span><span>waghmarepranali260204@gmail.com</span></div>
+                <div><span>Address:</span><span>T.V center, Aurangabad, Maharastra</span></div>
+              </div>
+              <div class="button">
+                <button>Download CV</button>
+              </div> -->
+            </section>
+
+            <section class="skillsection">
+
+              <div class="subject">Hard Work </div>
+              <div class="progress_bar">
+                <div class="progress_line" value="94%" style="max-width: 94%;"></div>
+              </div>
+      
+              <div class="subject">Flexible</div>
+              <div class="progress_bar">
+                <div class="progress_line" value="85%" style="max-width: 85%;"></div>
+              </div>
+      
+              <div class="subject">Web Designing </div>
+              <div class="progress_bar">
+                <div class="progress_line" value="70%" style="max-width: 70%;"></div>
+              </div>
+      
+              <div class="subject">creativity </div>
+              <div class="progress_bar">
+                <div class="progress_line" value="90%" style="max-width: 90%;"></div>
+              </div>
+            
+      
+      
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="thredsection" id="cartificate">
+        <h2>Cartificates</h2>
+        <div class="name">C and C++ by INTERSHALA</div>
+        <div class="crt" id="cr1"></div>
+        <div class="name">ML prepration by IIRS</div>
+        <div class="crt" id="cr2">cartificate.</div>
+        <div class="name">Communication by TCS</div>
+        <div class="crt" id="cr3">cartificate.</div>
+        <div class="name">Communication foundation by LINKEDIN</div>
+        <div class="crt" id="cr4">cartificate.</div>
+        <div class="name">Genrative AI by LINKEDIN</div>
+        <div class="crt" id="cr5">cartificate.</div>
+        <div class="name">CSS By GREAT LEARNING</div>
+        <div class="crt" id="cr6">cartificate.</div>
+        <div class="name">AI for india 2.0</div>
+        <div class="crt" id="cr7">cartificate.</div>
+        <div class="name">PYTHON By GUVI</div>
+        <div class="crt" id="cr8">cartificate.</div>
+      </section>
+
+      
     </main>
+
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
-        var typed = new Typed('#element', {
-          strings: ['Fornt-End Developer.'],
-          typeSpeed: 50,
-        });
-      </script>
-</body>
+      var typed = new Typed("#element", {
+        strings: ["Fornt-End Developer."],
+        typeSpeed: 50,
+      });
+    </script>
+    
+  </body>
 </html>
