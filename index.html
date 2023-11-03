@@ -8,21 +8,22 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav id="nav">
         <div class="left">Pranali's Protfoilo</div>
         <div class="right">
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#cartificate">Cartificates</a></li>
-            <li><a href="/">projects</a></li>
-            <li><a href="/">Contact me</a></li>
+            <li><a href="#project">projects</a></li>
+            <li><a href="#Contact">Contact me</a></li>
           </ul>
         </div>
       </nav>
     </header>
 
     <main>
+      <!-- home section starts  -->
       <section class="firstsection" id="home">
         <div class="leftSection">
           Hii, My name is <samp class="panoo">Pranali</samp>.
@@ -32,9 +33,11 @@
           <br /><br />
           <span>
             <button class="btn">
-             <a href="cv.pdf" download="cv.pdf">Download CV</a> 
+              <a href="cv.pdf" download="cv.pdf">Download CV</a>
             </button>
-            <button class="btn">Contact Me</button>
+            <button class="btn">
+              <a href="#Contact">Contact Me</a>
+            </button>
           </span>
         </div>
 
@@ -42,7 +45,12 @@
           <img src="photos/bg.jpg" alt="bg" />
         </div>
       </section>
-
+      <!-- home section ends -->
+      <!-- scrollup icon -->
+      <div class="icon">
+        <a href="#nav"> <img src="photos/up.png" alt="scroll up " /></a>
+      </div>
+      <!-- About section start -->
       <section class="secondsection" id="about">
         <h2>About Me</h2>
         <div class="about">
@@ -52,92 +60,324 @@
             </section>
             <section class="info">
               <h3>
-                Hey... <br>
-                I'm a front-end developer who is passionate about 
-                building interactive web applications and experiences.
+                Hey... <br />
+                I'm a front-end developer who is passionate about building
+                interactive web applications and experiences.
               </h3>
               <p>
-                Technology drives change; society follows. <br> The effort to
-                increase inclusivity and diversity in the industry through representation is crucial to me. <br> Design is more than simply the way something looks and feels. That is how it occurs.
+                Technology drives change; society follows. <br />
+                The effort to increase inclusivity and diversity in the industry
+                through representation is crucial to me. <br />
+                Design is more than simply the way something looks and feels.
+                That is how it occurs.
               </p>
               <p>
                 I'm also interested in machine learning and artificial
-                intelligence. <br> Artificial intelligence is a tool to enhance human creativity and genius, not a replacement for human intelligence.
+                intelligence. <br />
+                Artificial intelligence is a tool to enhance human creativity
+                and genius, not a replacement for human intelligence.
               </p>
               <p>
-                And last but not least, I enjoy travelling and discovering new places and things. <br>It silences you first, then makes you a
+                And last but not least, I enjoy travelling and discovering new
+                places and things. <br />It silences you first, then makes you a
                 storyteller.
               </p>
-              <!-- <div class="perinfo">
-                <div><span>Name:</span><span>Pranali Waghmare</span></div>
-                <div><span>Age:</span><span>19 years </span></div>
-                <div><span>Email:</span><span>waghmarepranali260204@gmail.com</span></div>
-                <div><span>Address:</span><span>T.V center, Aurangabad, Maharastra</span></div>
-              </div>
-              <div class="button">
-                <button>Download CV</button>
-              </div> -->
             </section>
 
             <section class="skillsection">
-
-              <div class="subject">Hard Work </div>
+              <div class="subject">Hard Work</div>
               <div class="progress_bar">
-                <div class="progress_line" value="94%" style="max-width: 94%;"></div>
+                <div
+                  class="progress_line"
+                  value="94%"
+                  style="max-width: 94%"
+                ></div>
               </div>
-      
+
               <div class="subject">Flexible</div>
               <div class="progress_bar">
-                <div class="progress_line" value="85%" style="max-width: 85%;"></div>
+                <div
+                  class="progress_line"
+                  value="85%"
+                  style="max-width: 85%"
+                ></div>
               </div>
-      
-              <div class="subject">Web Designing </div>
+
+              <div class="subject">Web Designing</div>
               <div class="progress_bar">
-                <div class="progress_line" value="70%" style="max-width: 70%;"></div>
+                <div
+                  class="progress_line"
+                  value="70%"
+                  style="max-width: 70%"
+                ></div>
               </div>
-      
-              <div class="subject">creativity </div>
+
+              <div class="subject">creativity</div>
               <div class="progress_bar">
-                <div class="progress_line" value="90%" style="max-width: 90%;"></div>
+                <div
+                  class="progress_line"
+                  value="90%"
+                  style="max-width: 90%"
+                ></div>
               </div>
-            
-      
-      
             </section>
           </div>
         </div>
       </section>
+      <!-- About section ends -->
 
+      <!-- Cartificate section start  -->
       <section class="thredsection" id="cartificate">
         <h2>Cartificates</h2>
         <div class="name">C and C++ by INTERSHALA</div>
-        <div class="crt" id="cr1"></div>
+        <div class="crt" id="cr1">Show Cartificate</div>
         <div class="name">ML prepration by IIRS</div>
-        <div class="crt" id="cr2">cartificate.</div>
+        <div class="crt" id="cr2">Show Cartificate.</div>
         <div class="name">Communication by TCS</div>
-        <div class="crt" id="cr3">cartificate.</div>
+        <div class="crt" id="cr3">Show Cartificate.</div>
         <div class="name">Communication foundation by LINKEDIN</div>
-        <div class="crt" id="cr4">cartificate.</div>
+        <div class="crt" id="cr4">Show Cartificate.</div>
         <div class="name">Genrative AI by LINKEDIN</div>
-        <div class="crt" id="cr5">cartificate.</div>
+        <div class="crt" id="cr5">Show Cartificate.</div>
         <div class="name">CSS By GREAT LEARNING</div>
-        <div class="crt" id="cr6">cartificate.</div>
+        <div class="crt" id="cr6">Show Cartificate.</div>
         <div class="name">AI for india 2.0</div>
-        <div class="crt" id="cr7">cartificate.</div>
+        <div class="crt" id="cr7">Show Cartificate.</div>
         <div class="name">PYTHON By GUVI</div>
-        <div class="crt" id="cr8">cartificate.</div>
+        <div class="crt" id="cr8">Show Cartificate.</div>
       </section>
+      <!-- Cartificate section ends -->
 
+      <!-- project section satrt -->
+      <section class="fourthsection" id="project">
+        <h2>Projects</h2>
+        <div class="projectsection">
+          <div class="project-container">
+            <div class="project-box">
+              <div class="imag">
+                <img src="photos/spotify.png" alt="pr1" />
+              </div>
+              <div class="content">
+                <h3>SPOTIFY CLONE</h3>
+                <p>
+                  Dive into the world of music with a feature-rich Spotify clone meticulously crafted using HTML, CSS, and JavaScript. This project is not just a tribute to the renowned music streaming service; it's a testament to my web development expertise
+                </p>
+              </div>
+              <div class="cap">
+                <span>
+                  <a href="https://pranali2624.github.io/spotify_clone/"
+                    target="_blank">VIEW</a></span>
+                <span><a href="https://githubcomPranali2624/spotify_clone"
+                    target="_blank">SOURCE CODE</a></span>
+              </div>
+            </div>
+
+            <div class="project-box">
+              <div class="imag">
+                <img src="photos/portfolio.png" alt="pr1" />
+              </div>
+              <div class="content">
+                <h3>MY PORTFOLIO</h3>
+                <p>
+                  Welcome to my digital showcase, where I've curated a collection of my most notable work and achievements. This portfolio is a reflection of my dedication to creativity, innovation, and expertise
+                </p>
+              </div>
+              <div class="cap">
+                <span>
+                  <a href="https://pranali2624.github.io/MyPortfolio/"
+                    target="_blank">VIEW</a></span>
+                <span><a href="https://github.com/Pranali2624/MyPortfolio"
+                    target="_blank">SOURCE CODE</a></span>
+              </div>
+            </div>
+
+            <div class="project-box">
+              <div class="imag">
+                <img src="photos/book.png" alt="pr1" />
+              </div>
+              <div class="content">
+                <h3>BOOKMARK WEBSITE</h3>
+                <p>
+                  This website is where I keep all of my bookmarked webpages that I wish to visit on a daily basis. It also makes my work easier by putting all of my bookmarks on one page. 
+                </p>
+              </div>
+              <div class="cap">
+                <span>
+                  <a href="https://pranali2624.github.io/MyBookmarks/"
+                    target="_blank">VIEW</a></span>
+                <span><a href="https://github.com/Pranali2624/MyBookmarks"
+                    target="_blank">SOURCE CODE</a></span>
+              </div>
+            </div>
+
+            <div class="project-box">
+              <div class="imag">
+                <img src="photos/netflix.png" alt="pr1" />
+              </div>
+              <div class="content">
+                <h3>NETFLIX CLONE</h3>
+                <p>
+                  Experience the magic of Netflix with a remarkable clone created from scratch using HTML, CSS, and JavaScript. This project is not only a tribute to the popular streaming platform but also a testament to my web development prowess.
+              </div>
+              <div class="cap">
+                <span>
+                  <a href="https://pranali2624.github.io/Netflix/"
+                    target="_blank">VIEW</a></span>
+                <span><a href="https://github.com/Pranali2624/Netflix"
+                    target="_blank">SOURCE CODE</a></span>
+              </div>
+            </div>
+
+            <div class="project-box">
+              <div class="imag">
+                <img src="photos/temperature.png" alt="pr1" />
+              </div>
+              <div class="content">
+                <h3>TEMPRETURE CALCULATER</h3>
+                <p>
+                  The Temperature Converter is your solution for swift and accurate temperature conversions between Fahrenheit (°F) and Celsius (°C). 
+                </p>
+              </div>
+              <div class="cap">
+                <span>
+                  <a href="https://pranali2624.github.io/Temperuture_calculator/"
+                    target="_blank">VIEW</a></span>
+                <span><a href="https://github.com/Pranali2624/Temperuture_calculator"
+                    target="_blank">SOURCE CODE</a></span>
+              </div>
+            </div>
+
+            
+
+          </div>
+        </div>
+      </section>
+      <!-- project section ends -->
+
+      <!-- contact section start  -->
       
+      <section class="fivethsection" id="Contact">
+        <h2>Contact Me</h2>
+        <!-- <div class="alert-succes">
+          <span>
+            Message Sent!Thank You For Contacting Me... 
+          </span>
+        </div> -->
+        <!-- <div class="alert-error">
+          <span>
+            Something Went Wrong! Please try Aging Later..
+          </span>
+        </div>
+        -->
+        <div class="cont">
+        <div class="contactinfo">
+          
+          <div ><img src="photos/pin.png" alt="location" width="20">
+           N-12, D-12/13, Sawmi Vivekanand
+            Nager, Hduco, Aurangabad
+          </div>
+          <div><img src="photos/email.png" alt="mail" width="20">
+     waghmarepranali260204@gmail.com
+          </div>
+         
+          <div> <img src="photos/call.png" alt="call" width="20">+91 8983448328</div>
+          <div><img src="photos/time.png" alt="time" width="20"> Mon - Fir 8:00 AM to 5:00 PM</div>
+        </div>
+        <div class="contactfrom">
+          <h3>Your Message</h3>
+          <form class="contact" onsubmit= " sendEmail(); reset(); return false;">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="text-box"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="text-box"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              id="message"
+              rows="5"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <input type="submit" name="submit" class="submit" value="Send" />
+          </form>
+        </div>
+      </div>
+      </section>
+      <!-- contact section end -->
     </main>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
+    <!-- <script>
       var typed = new Typed("#element", {
         strings: ["Fornt-End Developer."],
         typeSpeed: 50,
       });
+    </script> -->
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail(){
+      Email.send({
+        Host : "smtp.gmail.com",
+        Username : "waghmarepranali260204@gmail.com",
+        Passwrd : "Panoo@2212",
+        To : 'portfolioinquiry124@gmail.com',
+        From : document.getElementById("email").value,
+        Subject : "New Contact From Enquiry",
+        Body : "Name:" + document.getElementById("name").value +
+          "<br> Email:" + document.getElementById("email").value
+          + "<br> message:" + document.getElementById("message").value
+    }).then(
+      message => alert('.alert-succes')
+    );
+    }
     </script>
-    
-  </body>
+    </body>
+  <footer  class="footer">
+    <div class="contarner">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Sections</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Cartificate</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li>Email: waghmarepranali260204@gmail.com</li>
+            <li>phone no.: 8983448328</li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="footer-col social">
+          <h4>Follow me</h4>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/pranali-waghmare-655028237/" target="_blank"><img src="photos/linkedin.png" alt="linkedin" width="30px"></a></li>
+            <li><a href="https://twitter.com/Pranali2624" target="_blank"><img src="photos/twitter (2).png" alt="twitter" width="30px"></a></li>
+            <li><a href="https://github.com/Pranali2624" target="_blank"><img src="photos/github.png" alt="github" width="30px"></a></li>
+
+          </ul>
+        </div>
+       
+
+      </div>
+    </div>
+
+  </footer>
 </html>
