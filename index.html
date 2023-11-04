@@ -54,7 +54,7 @@
       <section class="secondsection" id="about">
         <h2>About Me</h2>
         <div class="about">
-          <div class="content">
+          <div class="content1">
             <section class="imgsection">
               <img src="photos/about.png" alt="profile" />
             </section>
@@ -258,17 +258,6 @@
       
       <section class="fivethsection" id="Contact">
         <h2>Contact Me</h2>
-        <!-- <div class="alert-succes">
-          <span>
-            Message Sent!Thank You For Contacting Me... 
-          </span>
-        </div> -->
-        <!-- <div class="alert-error">
-          <span>
-            Something Went Wrong! Please try Aging Later..
-          </span>
-        </div>
-        -->
         <div class="cont">
         <div class="contactinfo">
           
@@ -285,7 +274,7 @@
         </div>
         <div class="contactfrom">
           <h3>Your Message</h3>
-          <form class="contact" onsubmit= " sendEmail(); reset(); return false;">
+          <form class="contact" action="https://formsubmit.co/portfoliomessage12@gmail.com" method="POST" >
             <input
               type="text"
               name="name"
@@ -309,7 +298,9 @@
               placeholder="Your Message"
               required
             ></textarea>
-            <input type="submit" name="submit" class="submit" value="Send" />
+            <input type="hidden" name="_captcha" value="false">
+            
+            <input type="submit"  class="submit" value="Send" />
           </form>
         </div>
       </div>
@@ -318,31 +309,14 @@
     </main>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <!-- <script>
+    <script>
       var typed = new Typed("#element", {
         strings: ["Fornt-End Developer."],
         typeSpeed: 50,
       });
-    </script> -->
-
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-      function sendEmail(){
-      Email.send({
-        Host : "smtp.gmail.com",
-        Username : "waghmarepranali260204@gmail.com",
-        Passwrd : "Panoo@2212",
-        To : 'portfolioinquiry124@gmail.com',
-        From : document.getElementById("email").value,
-        Subject : "New Contact From Enquiry",
-        Body : "Name:" + document.getElementById("name").value +
-          "<br> Email:" + document.getElementById("email").value
-          + "<br> message:" + document.getElementById("message").value
-    }).then(
-      message => alert('.alert-succes')
-    );
-    }
     </script>
+
+    
     </body>
   <footer  class="footer">
     <div class="contarner">
@@ -350,10 +324,10 @@
         <div class="footer-col">
           <h4>Sections</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Cartificate</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#cartificate">Cartificate</a></li>
+            <li><a href="#project">Projects</a></li>
           </ul>
         </div>
         <div class="footer-col">
