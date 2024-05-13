@@ -3,6 +3,5 @@
         strings: ["Fornt-End Developer."],
         typeSpeed: 50,
       });
-  
 // for contact
     
